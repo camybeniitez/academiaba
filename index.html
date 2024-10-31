@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>La Mayo Cereales</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header-logo">La Mayo Cereales</a>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 menu-bars"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+      <nav class="nav-header">
+        <ul class="nav-links">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Nuestras ofertas</a></li>
+          <li><a href="#">Suscripcion</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section id="hero">
+        <div class="hero-info">
+          <h1>Tu forrajería de confianza en zona oeste</h1>
+          <p>
+            Bienvenido a La Mayo Cereales, donde nos dedicamos a ofrecer la
+            mejor selección de forrajes, semillas y suplementos nutricionales
+            para tus animales. Con años de experiencia en el sector, nuestro
+            compromiso es proporcionar productos de alta calidad a precios
+            competitivos. En nuestra forrajería, encontrarás atención
+            personalizada, asesoramiento experto y un amplio stock para
+            satisfacer todas tus necesidades. Ya seas un productor agrícola, un
+            ganadero o un amante de los animales, estamos aquí para ayudarte a
+            mantener la salud y el bienestar de tus mascotas y ganado.
+            ¡Visítanos y descubre la diferencia!
+          </p>
+          <div class="btn-container">
+            <a href="#" class="btn btn-primary">Explorar</a>
+            <a href="#" class="btn btn-secondary">Suscribirse</a>
+          </div>
+        </div>
+
+        <img src="img/lamayo.png" alt="La Mayo Cereales" />
+      </section>
+
+      <section id="discover">
+        <div class="discover-info">
+          <h2>Nuestras sucursales</h2>
+          <p>
+            Contamos con varias sucursales estratégicamente ubicadas en la Zona
+            Oeste para brindarte la mejor atención y servicio. Cada una de
+            nuestras tiendas está diseñada para ofrecerte una amplia variedad de
+            forrajes, semillas y productos nutricionales, garantizando siempre
+            la calidad que nos caracteriza. Nuestro equipo de expertos está
+            listo para asesorarte y ayudarte a encontrar lo que necesitas, ya
+            sea para tu ganado o tus mascotas. Visítanos en cualquiera de
+            nuestras sucursales y descubre un mundo de opciones para el
+            bienestar de tus animales. ¡Estamos cerca de ti!
+          </p>
+        </div>
+        <article class="discover-cards">
+          <!-- Card 1 -->
+          <article class="card-1">
+            <img src="img/sucursal1.jpeg" alt="" />
+            <h3>Moreno</h3>
+            <p>Bartolome Mitre 3146</p>
+          </article>
+          <!-- Card 2 -->
+          <article class="card-2">
+            <img src="img/sucursal2.jpeg" alt="" />
+            <h3>Merlo</h3>
+            <p>Saavedra 79</p>
+          </article>
+          <!-- Card 3 -->
+          <article class="card-3">
+            <img src="img/sucursal3.jpeg" alt="" />
+            <h3>Moron</h3>
+            <p>Buen Viaje 407</p>
+          </article>
+        </article>
+        <div class="btn-container">
+          <a href="#" class="btn btn-secondary">Explorar</a>
+          <a href="#" class="btn">Contactanos > </a>
+        </div>
+      </section>
+      <!-- Products -->
+      <section id="products">
+        <div class="products-info">
+          <div>
+            <span>Suscríbete</span>
+            <h2>Productos</h2>
+            <p>Descubre nuestras suscripciones y sus beneficios exclusivos.</p>
+          </div>
+          <a href="#" class="btn btn-secondary view-all">Ver todos</a>
+        </div>
+        <article class="products-container">
+          <!-- Producto -->
+          <article class="producto">
+            <img src="img/producto1.webp" />
+            <h3>Purina Excellent</h3>
+            <p>Cachorro</p>
+            <span class="price">$15000</span>
+            <button class="btn btn-primary">Comprar</button>
+          </article>
+          <!-- Producto -->
+          <article class="producto">
+            <img src="img/producto2.jpg" alt="" />
+            <h3>Eukanuba</h3>
+            <p>Adulto</p>
+            <span class="price">$22000</span>
+            <button class="btn btn-primary">Comprar</button>
+          </article>
+          <!-- Producto -->
+          <article class="producto">
+            <img src="img/producto3.webp" alt="" />
+            <h3>Purina Dog Chow</h3>
+            <p>Adulto</p>
+            <span class="price">$20000</span>
+            <button class="btn btn-primary">Comprar</button>
+          </article>
+          <!-- Producto -->
+          <article class="producto">
+            <img src="img/producto4.webp" alt="" />
+            <h3>Purina Dog Chow</h3>
+            <p>Adulto y pequeño</p>
+            <span class="price">$25000</span>
+            <button class="btn btn-primary">Comprar</button>
+          </article>
+        </article>
+      </section>
+
+      <!-- Info -->
+      <section id="benefits">
+        <article class="benefits-container">
+          <article class="benefits-title">
+            <h3>
+              Descubre los increíbles beneficios de comprar en nuestra tienda
+              online!
+            </h3>
+            <p>
+              Aprovecha descuentos exclusivos y ofertas especiales para nuestros
+              clientes.
+            </p>
+          </article>
+          <article class="benefits-items">
+            <article class="discounts">
+              <h4>Descuentos Exclusivos</h4>
+              <p>
+                Obtén descuentos especiales en alimentos secos y húmedos para
+                tus mascotas.
+              </p>
+            </article>
+            <article class="priority">
+              <h4>Acceso Prioritario</h4>
+              <p>
+                Disfruta de acceso anticipado a nuevos lanzamientos y eventos
+                exclusivos para suscriptores.
+              </p>
+            </article>
+          </article>
+        </article>
+        <img src="img/forrajeria.jpg" alt="" />
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq">
+        <div class="faq-info">
+          <h2>Explora</h2>
+          <p>
+            Descubre nuestras suscripciones diseñadas para programadores y
+            diseñadores. ¡Regístrate y aprovecha!
+          </p>
+          <a href="#" class="btn btn-secondary">Regístrate</a>
+        </div>
+        <article class="faq">
+          <details name="question">
+            <summary>¿Qué incluye la suscripción?</summary>
+            <p>
+              Suscribirte a la página de La Mayo Cereales es la mejor manera de
+              mantenerte informado sobre nuestras últimas ofertas, novedades y
+              consejos para el cuidado de tus animales. Al hacerlo, recibirás
+              acceso exclusivo a promociones especiales, lanzamientos de nuevos
+              productos y contenido educativo que te ayudará a optimizar la
+              alimentación de tu ganado. Además, estarás al tanto de eventos y
+              ferias donde podrás conocernos en persona. No te pierdas la
+              oportunidad de ser parte de nuestra comunidad y asegurar el
+              bienestar de tus animales con la mejor calidad en forrajes y
+              cereales.
+            </p>
+          </details>
+          <details name="question">
+            <summary>¿Tiene costo la suscripción?</summary>
+            <p>
+              No, la suscripción a nuestra página es completamente gratuita. Al
+              registrarte, recibirás actualizaciones sobre nuestras ofertas,
+              productos y consejos útiles sin ningún costo. Queremos que formes
+              parte de nuestra comunidad y tengas acceso a la mejor información
+              para el bienestar de tus animales. ¡Únete hoy mismo y disfruta de
+              todos los beneficios!
+            </p>
+          </details>
+
+          <details name="question">
+            <summary>¿Puedo darme de baja en cualquier momento?</summary>
+            <p>
+              Sí, puedes darte de baja de nuestra suscripción en cualquier
+              momento. Valoramos tu privacidad y tu decisión. Si decides
+              cancelar tu suscripción, simplemente sigue el enlace de baja en
+              nuestros correos electrónicos o contacta con nuestro equipo, y lo
+              haremos de inmediato. Queremos que te sientas cómodo y satisfecho
+              con tu experiencia.
+            </p>
+          </details>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="links-footer">
+        <a href="#" class="header-logo">La Mayo - Cereales</a>
+
+        <nav>
+          <ul class="nav-footer">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Acerca de</a></li>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul class="rrss">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+      <div>
+        <p>© 2024 La Mayo Cereales. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
